@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booking</title>
 </head>
+
+
 <body>
-    <h1>This is book ticket page</h1>
+
+    <a href="./../index.html">Home</a>
+    <a href="./../movies/movie.html">Movie</a>
+    
+    <h1>Reserve Your Seat in Just a Few Steps!</h1>
+    <p>Enjoy a seamless movie booking experience. Select your favorite movie, choose your preferred theatre, pick a date
+        and time, and reserve your seats instantly. Get ready for an amazing cinematic experience!</p>
+
+    <h1>Booking Form</h1>
+
+    <form action="">
+        <label for="nameinput">Full Name</label>
+        <input type="text" name="" id="nameinput"> <br><br>
+
+        <label for="nameEmail">Email Address</label>
+        <input type="email" name="" id="nameEmail" placeholder="name@gmail.com"> <br> <br>
+
+        <label for="inputMobilenumber">Mobile Number</label>
+        <input type="number" name="" id="inputMobilenumber"> <br><br>
+
+
+        <label>Select movie:</label>
+
+        <select name="" id="">
+            <option value="">Select movie</option>
+            <option>Avengers: Endgame</option>
+            <option value="">Spider-Man: No Way Home</option>
+            <option value="">Pushpa 2: The Rule</option>
+            <option value="">Jurassic World</option>
+        </select>
+        <br><br>
+
+        <h3>theatre</h3>
+        <label for="theatre">Select Theatre:</label>
+        <select id="theatre" name="theatre">
+            <option value="">-- Select Theatre --</option>
+            <option value="pvr">PVR Cinemas</option>
+            <option value="inox">INOX</option>
+            <option value="cinepolis">Cinepolis</option>
+            <option value="miraj">Miraj Cinemas</option>
+            <option value="carnival">Carnival Cinemas</option>
+        </select> <br><br>
+
+        <h3>showtime</h3>
+        <label for="showtime">Select Show Time(s):</label>
+
+        <select id="showtime" name="showtime" >
+            <option value="">10:00 AM</option>
+            <option value="">1:30 PM</option>
+            <option value="">4:30 PM</option>
+            <option value="">7:00 PM</option>
+            <option value="">10:00 PM</option>
+        </select>
+
+        <h3>Seat Selection</h3>
+
+        <label for="seatType">Seat Type:</label>
+
+        <select id="seatType" name="seatType">
+            <option value="">-- Select Seat Type --</option>
+            <option value="regular">Regular</option>
+            <option value="premium">Premium</option>
+            <option value="vip">VIP</option>
+            <option value="recliner">Recliner</option>
+        </select> <br><br>
+
+        <input type="search" value="Book Ticket">
+
+
+    </form>
 </body>
+
 </html>
